@@ -1,0 +1,90 @@
+header{
+display: flex;
+width: 100%;
+justify-content: flex-start;
+box-sizing: border-box;
+width: 100%;
+}
+img{
+  box-sizing: border-box;
+  width: 100%;
+  align-self: center;
+  padding:25px 25px;
+}
+h1{
+  border-bottom-style: double;
+  border-width: thick;
+  align-self: stretch;
+  color: #50c34a;
+  font-family: cursive;
+  border-bottom: alaas;
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+}
+nav{
+  flex-direction: inherit;
+  display: list-item;
+  align-self: flex-start;
+  justify-content: center;
+  list-style: none;
+}
+a i{
+    color: red;
+    font-size: 25px;
+    width: 100%;
+}
+main{
+  box-sizing: content-box;
+padding-right: 20px;
+  box-sizing: border-box;
+  height: 273px;
+  margin: 20px;
+  border: 15px solid white;
+float:right;
+}
+.top{
+height: 300px;
+color:red;
+float:right;
+}
+.video-box{
+  margin: 20px 20px;
+  padding-left: 20px;
+text-align: center;
+}
+br{
+  background-color: white;
+}
+body{
+  background-color: lightgray;
+  margin: 0 auto;
+  contain:style;
+}
+/* .box-1{
+  background-image: url("../Ball-HardWebsite/man.PNG");
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100%;
+  height: 556px;
+  display: flex;
+  justify-content: normal;
+  border: 15px solid white;
+} */
+.form{
+  width: 100%;
+  height: 400px;
+  background: white;
+  display: flex;
+  color: black;
+  box-sizing: border-box;
+  margin: 20px auto;
+  padding-top: 40px;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+.box-2{
+  width: 50px;
+  background-image: url("Ball-HardWebsite/stillshot.PNG");
+  background-size: contain;
+}
